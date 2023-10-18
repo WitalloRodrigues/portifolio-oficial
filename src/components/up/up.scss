@@ -1,0 +1,17 @@
+@import "../../app.scss";
+
+.up{
+    position: fixed;
+    right: 100px;
+    bottom: 40px;
+    z-index: 1000;
+
+    @include mobile {
+        right: -38px;
+        bottom: -40px;
+    }
+
+    img{
+        width: 150px;
+    }
+}

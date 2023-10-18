@@ -1,0 +1,98 @@
+@import "../../app.scss";
+
+.skills{
+    position: relative;
+    height: 100%;
+    .textContainer{
+        position: absolute;
+        top: 0;
+        left: 40%;
+        padding-top: 50px;
+        text-align: center;
+        color: orange;
+        z-index: 8;
+        font-size: 100px;
+        background-color: #0c0c1d;
+        padding: 30px;
+        border-radius: 50%;
+        font-weight: bold;
+
+        @include mobile {
+            left: 25%;
+            font-size: 24px;
+        }
+    }
+
+    
+
+    .cilularLight{
+        height: 100%;
+        background:  repeating-radial-gradient(rgba(255, 255, 255, 0.096) 2px, #0c0c1d 5px,#0c0c1d 100px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include mobile {
+            background:  repeating-radial-gradient(rgba(255, 255, 255, 0.096) 2px, #0c0c1d 5px,#0c0c1d 50px);
+        }
+    }
+
+    .stars {
+        background-image: url("/stars.png");
+        background-size: cover;
+        background-position: bottom;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+      }
+
+      .planets{
+        
+        .skill{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: bold;
+            background-color: #74ece0fb;
+            color: #030307;
+            padding: 60px;
+            cursor: pointer;
+            position: absolute;
+            z-index: 2;
+            font-weight: bold;
+
+            @include mobile {
+                display: none;
+            }
+        }
+        .skillMobile{
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: bold;
+            background-color: #74ece0fb;
+            color: #030307;
+            padding: 40px;
+            cursor: pointer;
+            position: absolute;
+            z-index: 2;
+            font-weight: bold;
+            display: none;
+            
+            @include mobile {
+                display: flex;
+            }
+        }
+      }
+
+      
+    
+
+}
