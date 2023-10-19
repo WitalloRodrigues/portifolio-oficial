@@ -65,7 +65,7 @@ const Hero = () => {
                         <a href="./curriculo.pdf" target="_blank"><motion.button variants={textVariants}>Meu curriculo</motion.button> </a>
                         <a href="#Orçamento"><motion.button variants={textVariants}>Faça seu orçamento</motion.button></a>
                     </motion.div>
-                    <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="scroll img" />
+                    <motion.img variants={textVariants} animate="scrollButton" src="./scroll.png" alt="scroll img" />
                 </motion.div>
             </div>
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate" >
