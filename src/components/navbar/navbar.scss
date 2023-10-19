@@ -20,6 +20,9 @@
         h1{//remover talves
             font-size: 80px;
             margin-left: -50%;
+            @include desktop {
+                display: none;
+              }
         }
 
         span{

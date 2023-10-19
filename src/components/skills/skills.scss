@@ -17,6 +17,10 @@
         border-radius: 50%;
         font-weight: bold;
 
+        @include desktop {
+            left: 31%;
+          }
+
         @include mobile {
             left: 25%;
             font-size: 24px;

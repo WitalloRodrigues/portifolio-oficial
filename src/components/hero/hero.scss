@@ -58,13 +58,15 @@
         width: 50px;
         position: a;
         bottom: 0;
+        
 
         @include mobile {
-          width: 50px;
-          position: absolute;
-          bottom: 3%;
-          right: 4%;
-          z-index: 999;
+          // width: 50px;
+          // position: absolute;
+          // bottom: 3%;
+          // right: 4%;
+          // z-index: 999;
+          display: none;
         }
       }
 
