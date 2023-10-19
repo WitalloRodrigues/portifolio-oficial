@@ -72,7 +72,7 @@ const Sidebar = () => {
                         whileTap={{scale:0.95}}
                         
                     >
-                        <img src="/linkedin.png" alt="linkedin img" />
+                        <img src="./linkedin.png" alt="linkedin img" />
                     </motion.a>
 
                     <motion.a 
@@ -81,7 +81,7 @@ const Sidebar = () => {
                         whileHover={{scale:1.1}}
                         whileTap={{scale:1.95}}
                     >
-                        <img src="/github.jpg" alt="github jpg" />
+                        <img src="./github.jpg" alt="github jpg" />
                     </motion.a>
 
                     <motion.a 
@@ -90,7 +90,7 @@ const Sidebar = () => {
                         whileHover={{scale:1.1}}
                         whileTap={{scale:0.95}} 
                     >
-                        <img src="/instagram.png" alt="instagram img" />
+                        <img src="./instagram.png" alt="instagram img" />
                     </motion.a>
                     <motion.a 
                         href="#!" target="_blank" 
@@ -98,7 +98,7 @@ const Sidebar = () => {
                         whileHover={{scale:1.1}}
                         whileTap={{scale:0.95}}
                     >
-                        <img src="/whatzapp.png" alt="whatzapp img" />
+                        <img src="./whatzapp.png" alt="whatzapp img" />
                     </motion.a>
 
                 </motion.div>
