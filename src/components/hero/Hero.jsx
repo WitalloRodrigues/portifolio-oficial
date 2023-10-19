@@ -72,7 +72,7 @@ const Hero = () => {
                 Witallo Portifolio
             </motion.div>
             <motion.div className="imageContainer"  variants={perfilVariants} initial="initial" animate="animate">
-                <img src="/astronauta.png" alt="eu img" />
+                <img src="./astronauta.png" alt="eu img" />
             </motion.div>
         </div>
     )
